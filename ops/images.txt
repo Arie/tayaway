@@ -6,9 +6,9 @@
 # backend + edge are private GHCR packages — the VPS needs
 # `sudo podman login ghcr.io` once before these pull. geoip is built from
 # containers/Containerfile.geoip and shares the same per-commit SHA.
-ghcr.io/iain/tayaway-backend:e70495c3637da5b0a33a88e6079e03e30ad23bea
-ghcr.io/iain/tayaway-edge:e70495c3637da5b0a33a88e6079e03e30ad23bea
-ghcr.io/iain/tayaway-geoip:e70495c3637da5b0a33a88e6079e03e30ad23bea
+ghcr.io/iain/tayaway-backend:f7dfe79564c36e1ec96fa473164c3cf6559d7536
+ghcr.io/iain/tayaway-edge:f7dfe79564c36e1ec96fa473164c3cf6559d7536
+ghcr.io/iain/tayaway-geoip:f7dfe79564c36e1ec96fa473164c3cf6559d7536
 # db has its own image lifecycle (postgres+wal-g, rebuilt only when the
 # Containerfile.db or wal-g version changes), so its SHA tracks separately
 # from the app images above.
